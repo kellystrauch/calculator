@@ -1,0 +1,39 @@
+body {
+	font-family: 'Orbitron', sans-serif;
+	background: #0c0f0a;
+	color: white;
+}
+.container {
+	max-width: 385px;
+	margin-top: 40px;
+}
+button{
+	width: 100%;
+}
+.btn-secondary{
+	font-size: 28px;
+	background-color: #41ead4;
+	border-color: black;
+	color: black;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.clear-button{
+	background-color: #f71735;
+}
+h1{
+	text-align-last: justify;
+	color: rgba(255, 255, 255, 0.9);
+}
+.row{
+	margin-top: 20px;
+}
+#output{
+	color: #ff9f1c;
+	font-size: 40px;
+}
+/* select all classes that begin with col- */
+div[class^="col-"]{
+	padding-left: 5px;
+	padding-right: 5px;
+}
